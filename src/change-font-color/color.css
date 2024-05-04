@@ -1,0 +1,12 @@
+p {
+  color: brown;
+  position: absolute;
+  left: 46%;
+}
+
+button {
+  margin: 0;
+  position: absolute;
+  left: 49%;
+  top: 10%;
+}
