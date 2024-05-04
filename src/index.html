@@ -7,8 +7,32 @@
     <title>Task</title>
   </head>
   <body>
-    <div></div>
-    <span></span>
+    <div>
+      <button class="btn" data-action="first-to-second">
+        Drag from first to second
+      </button>
+      <button class="btn" data-action="second-to-first">
+        Drag from second to first
+      </button>
+    </div>
+    <div>
+      <h1><strong>First span:</strong></h1>
+      <span class="span" id="first">
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+      </span>
+    </div>
+    <div>
+      <h1><strong>Second span:</strong></h1>
+      <span class="span" id="second">
+        <ul>
+          <li>text1</li>
+          <li>text2</li>
+          <li>text3</li>
+        </ul>
+      </span>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
